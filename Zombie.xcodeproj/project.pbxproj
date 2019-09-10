@@ -21,6 +21,7 @@
 		EE80AA112318C16A001BC823 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE80AA0F2318C16A001BC823 /* Main.storyboard */; };
 		EE80AA132318C16D001BC823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE80AA122318C16D001BC823 /* Assets.xcassets */; };
 		EE80AA162318C16D001BC823 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE80AA142318C16D001BC823 /* LaunchScreen.storyboard */; };
+		EEA86C54232741D30033593F /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA86C53232741D30033593F /* MainMenuScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		EE80AA122318C16D001BC823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE80AA152318C16D001BC823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE80AA172318C16D001BC823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA86C53232741D30033593F /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			children = (
 				EE80AA052318C16A001BC823 /* AppDelegate.swift */,
 				EE80AA0B2318C16A001BC823 /* GameScene.swift */,
+				EEA86C53232741D30033593F /* MainMenuScene.swift */,
 				EE1B1352232694B7009E6AEC /* GameOverScene.swift */,
 				EE23806D231B8BA300E47379 /* MyUtils.swift */,
 				EE1B13452325F87F009E6AEC /* Sounds */,
@@ -176,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA86C54232741D30033593F /* MainMenuScene.swift in Sources */,
 				EE1B1353232694B7009E6AEC /* GameOverScene.swift in Sources */,
 				EE80AA0C2318C16A001BC823 /* GameScene.swift in Sources */,
 				EE80AA0E2318C16A001BC823 /* GameViewController.swift in Sources */,
