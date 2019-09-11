@@ -32,14 +32,12 @@ class GameOverScene: SKScene {
         }
         background.position = CGPoint(x: size.width/2, y: size.height/2)
         addChild(background)
-        
-        let wait = SKAction.wait(forDuration: 3.0)
-        let block = SKAction.run {
-            let gameScene = GameScene(size: self.size)
-            gameScene.scaleMode = self.scaleMode
-            let transition = SKTransition.doorsOpenHorizontal(withDuration: 0.5)
-            self.view?.presentScene(gameScene, transition: transition)
-        }
-        self.run(SKAction.sequence([wait, block]))
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let gameScene = GameScene(size: size)
+        gameScene.scaleMode = scaleMode
+        let transition = SKTransition.doorsOpenHorizontal(withDuration: 0.5)
+        view?.presentScene(gameScene, transition: transition)
     }
 }

@@ -21,6 +21,7 @@
 		EE80AA112318C16A001BC823 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE80AA0F2318C16A001BC823 /* Main.storyboard */; };
 		EE80AA132318C16D001BC823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE80AA122318C16D001BC823 /* Assets.xcassets */; };
 		EE80AA162318C16D001BC823 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE80AA142318C16D001BC823 /* LaunchScreen.storyboard */; };
+		EE8B368A2328B65A00144686 /* GLIMSTIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = EE8B36892328B65A00144686 /* GLIMSTIC.TTF */; };
 		EEA86C54232741D30033593F /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA86C53232741D30033593F /* MainMenuScene.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		EE80AA122318C16D001BC823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE80AA152318C16D001BC823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE80AA172318C16D001BC823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8B36892328B65A00144686 /* GLIMSTIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GLIMSTIC.TTF; sourceTree = "<group>"; };
 		EEA86C53232741D30033593F /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 				EEA86C53232741D30033593F /* MainMenuScene.swift */,
 				EE1B1352232694B7009E6AEC /* GameOverScene.swift */,
 				EE23806D231B8BA300E47379 /* MyUtils.swift */,
+				EE8B36892328B65A00144686 /* GLIMSTIC.TTF */,
 				EE1B13452325F87F009E6AEC /* Sounds */,
 				EE80AA0D2318C16A001BC823 /* GameViewController.swift */,
 				EE80AA0F2318C16A001BC823 /* Main.storyboard */,
@@ -162,6 +165,7 @@
 			files = (
 				EE1B134C2325F87F009E6AEC /* lose.wav in Resources */,
 				EE80AA112318C16A001BC823 /* Main.storyboard in Resources */,
+				EE8B368A2328B65A00144686 /* GLIMSTIC.TTF in Resources */,
 				EE1B134F2325F87F009E6AEC /* backgroundMusic.mp3 in Resources */,
 				EE1B134B2325F87F009E6AEC /* win.wav in Resources */,
 				EE1B134D2325F87F009E6AEC /* hitCat.wav in Resources */,
